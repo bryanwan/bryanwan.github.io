@@ -134,6 +134,12 @@ aside {
     background-color: transparent;
 }
 
+@media only screen and (max-width: 375px) {
+
+   .navbar-default { font-size: 2em; }
+
+}
+
 @media(min-width:768px) {
     .navbar-default {
         border-color: rgba(255,255,255,.3);
