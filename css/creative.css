@@ -57,11 +57,12 @@ p {
 
 .bg-primary {
     /*background-color: #663399;*/
-	background-color: rgba(102, 51, 153,.7);
+	background-color: rgba(0, 0, 0, 1);
 }
 
 .bg-three {
-    background-color: #CED8F6;
+    /*background-color: #CED8F6;*/
+	background-color: rgba(0, 0, 0, .3);
 }
 
 .bg-dark {
@@ -215,6 +216,21 @@ event span {
    background-color: rgba(102, 51, 153,.7);
 }
 
+sponsor { 
+   position: absolute; 
+   top: 20px; 
+   left: 10px; 
+   width: 100%; 
+}
+
+sponsor span { 
+   color: white; 
+   font: bold 14px arial; 
+   letter-spacing: 1px;  
+   line-height:200%;
+   background-color: rgba(0, 0, 0,.6);
+}
+
 header .header-content {
     position: relative;
     width: 100%;
@@ -235,15 +251,18 @@ header .header-content .header-content-inner hr {
 
 header .header-content .header-content-inner p {
     margin-bottom: 50px;
-    font-size: 16px;
-    font-weight: 900;
-    /*color: rgba(255,255,255,.7);*/
-	color: rgba(206,216,246,1);
+    font-size: 20px;
+    /*font-weight: 1000;*/
+    color: rgba(255,255,255,.7);
+	background-color: rgba(0,0,0,.6);
+	/*color: rgba(206,216,246,1);*/
+	
 }
 
 @media(min-width:768px) {
     header {
         min-height: 100%;
+		min-width: 100%;
     }
 
     header .header-content {
