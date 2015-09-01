@@ -52,7 +52,8 @@ p {
 }
 
 .bg-primary {
-    background-color: #663399;
+    /*background-color: #663399;*/
+	background-color: rgba(102, 51, 153,.7);
 }
 
 .bg-three {
@@ -83,10 +84,12 @@ aside {
 .navbar-default {
     border-color: rgba(34,34,34,.05);
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
-    background-color: #fff;
+    /*background-color: #fff;*/
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
+	/*-webkit-text-stroke-width: .5px;
+	-webkit-text-stroke-color: black;*/
 }
 
 .navbar-default .navbar-header .navbar-brand {
@@ -94,6 +97,7 @@ aside {
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     font-weight: 700;
     color: #f05f40;
+	
 }
 
 .navbar-default .navbar-header .navbar-brand:hover,
@@ -132,7 +136,8 @@ aside {
     }
 
     .navbar-default .navbar-header .navbar-brand {
-        color: rgba(255,255,255,.7);
+        /*color: rgba(255,255,255,.7);*/
+		color: rgba(240,95,64,1);
     }
 
     .navbar-default .navbar-header .navbar-brand:hover,
@@ -142,7 +147,8 @@ aside {
 
     .navbar-default .nav > li>a,
     .navbar-default .nav>li>a:focus {
-        color: rgba(255,255,255,.7);
+        /*color: rgba(255,255,255,.7);*/
+		color: rgba(240,95,64,1);
     }
 
     .navbar-default .nav > li>a:hover,
@@ -199,9 +205,10 @@ event {
 
 event span { 
    color: white; 
-   font: bold 12px arial; 
+   font: bold 20px arial; 
    letter-spacing: 1px;  
    line-height:200%;
+   background-color: rgba(102, 51, 153,.7);
 }
 
 header .header-content {
@@ -225,8 +232,9 @@ header .header-content .header-content-inner hr {
 header .header-content .header-content-inner p {
     margin-bottom: 50px;
     font-size: 16px;
-    font-weight: 300;
-    color: rgba(255,255,255,.7);
+    font-weight: 900;
+    /*color: rgba(255,255,255,.7);*/
+	color: rgba(255,255,255,1);
 }
 
 @media(min-width:768px) {
